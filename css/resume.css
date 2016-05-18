@@ -1,3 +1,19 @@
 h1 
 	{color: red;
 }
+p
+	{text-align: center;
+	 font-family: Calibri;
+
+}
+a
+	{text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+	color: green;
+}
+	a:visited{color: blue}
+	a:hover{color: red}
+ul
+	{list-style: none;
+}
