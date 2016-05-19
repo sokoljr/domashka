@@ -1,19 +1,37 @@
-h1 
-	{color: red;
+body
+	{background-image: url(http://www.publicdomainpictures.net/pictures/70000/velka/old-white-background.jpg);
+	 background-repeat: no-repeat;
 }
-p
-	{text-align: center;
-	 font-family: Calibri;
-
+h1 
+	{
+	color: black;
 }
 a
-	{text-decoration: none;
+	{
+	text-decoration: none;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 20px;
 	color: green;
 }
-	a:visited{color: blue}
-	a:hover{color: red}
+	a:visited{color: black}
+	a:hover{color: blue}
 ul
-	{list-style: none;
+	{
+	list-style: none;
+	font-family: Arial;
+}
+#one-content
+	{color: red;
+}
+#two-content
+	{color: green;
+}
+#free-content
+	{color: brown;
+}
+#four-content
+	{color: yellow;
+}
+#five-content
+	{color: purple;
 }
