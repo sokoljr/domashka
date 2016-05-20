@@ -1,37 +1,41 @@
-body
-	{background-image: url(http://www.publicdomainpictures.net/pictures/70000/velka/old-white-background.jpg);
-	 background-repeat: no-repeat;
+body {background-image: url(http://www.publicdomainpictures.net/pictures/70000/velka/old-white-background.jpg);
+	  background-repeat: repeat-y;
+	  height: 3000px;
 }
-h1 
-	{
+#img1 {float: left;
+	  padding: 10px;
+}
+h1 {
 	color: black;
+	padding-top: 10px;
+	font-size: 30px;
+	font-family: 
 }
-a
-	{
+a {
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 20px;
 	color: green;
+	float: left;
 }
 	a:visited{color: black}
 	a:hover{color: blue}
-ul
-	{
+ul {
 	list-style: none;
 	font-family: Arial;
 }
-#one-content
-	{color: red;
+#one-content {
+	padding-bottom: 10px;
 }
-#two-content
-	{color: green;
+#two-content {
+	padding-bottom: 10px;
 }
-#free-content
-	{color: brown;
+#free-content {
+	padding-bottom: 10px;
 }
-#four-content
-	{color: yellow;
+#four-content {
+	padding-bottom: 10px;
 }
-#five-content
-	{color: purple;
+#five-content {
+	padding-bottom: 10px;
 }
