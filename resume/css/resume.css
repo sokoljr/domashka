@@ -1,0 +1,41 @@
+body {background-image: url(../img/bg.png);
+	  background-repeat: repeat-y;
+	  height: 3000px;
+}
+#img1 {float: left;
+	  padding: 10px;
+}
+h1 {
+	color: black;
+	padding-top: 10px;
+	font-size: 30px;
+	font-family: 
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	color: green;
+	float: left;
+}
+	a:visited{color: black}
+	a:hover{color: blue}
+ul {
+	list-style: none;
+	font-family: Arial;
+}
+#one-content {
+	padding-bottom: 10px;
+}
+#two-content {
+	padding-bottom: 10px;
+}
+#free-content {
+	padding-bottom: 10px;
+}
+#four-content {
+	padding-bottom: 10px;
+}
+#five-content {
+	padding-bottom: 10px;
+}
