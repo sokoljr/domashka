@@ -86,6 +86,7 @@ body {
 }
 
 .text {
+	font: normal 16px Arial;
 	width: 580px;
 	height: 220px;
 	float: right;
