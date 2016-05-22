@@ -127,6 +127,5 @@ body {
 }
 
 .last {
-	position: absolute;
-	left: 1200px;
+	float: left;
 }

@@ -5,9 +5,9 @@ body {
 }
 
 .container {
+	position: relative;
 	background-color: #d7d7dd;
 	height: 1100px;
-	width: 1280px;
 	width: 80%;
     max-width: 900px;
     margin: 10px auto;
