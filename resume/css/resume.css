@@ -1,41 +1,168 @@
-body {background-image: url(../img/bg.png);
-	  background-repeat: repeat-y;
-	  height: 3000px;
+body {
+	background-color: #9b9999;
+	background-attachment:fixed;  
+	font:14px/24px Arial,Helvetica,sans-serif;
 }
-#img1 {float: left;
-	  padding: 10px;
+
+.container {
+	background-color: #d7d7dd;
+	height: 1100px;
+	width: 1280px;
+	width: 80%;
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 1em;
+    box-shadow:
+    0 1px 4px rgba(0, 0, 0, .3),
+   -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
 }
-h1 {
-	color: black;
-	padding-top: 10px;
-	font-size: 30px;
-	font-family: 
+
+.header {
+	margin-top:0;
+	margin-top:0;
+	width: 800px;
+	height: 400px;
 }
-a {
+
+.main_foto {
+	margin-left: 50px;
+	margin-top: 25px;
+	background: #c7c3c3;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 2px;
+}
+
+.title1  {
+	float: right;
+	margin-right: 180px;
+	margin-top: 25px;
+	font-size:48px;
+	font-weight: bold; 
+	color:#333;
+}
+
+.title2  { 
+	font-size:24px; 
+	font-style:italic;
+	font-weight: normal; 
+	color:#173D5F;
+	position: relative;
+	left: 320px;
+	bottom: 220px;
+}
+
+.top_text {
+	margin-top: 0;
+	height: 100px;
+	width: 600px;
+	position: relative;
+	font-style: italic; 
+	text-indent: 20px;
+	color: #173D5F;
+	font-size: 14px;
+	left: 320px;
+	bottom: 210px;
+}
+
+.mail a {
 	text-decoration: none;
-	font-weight: bold;
-	font-size: 20px;
-	color: green;
-	float: left;
+	color: black;	
 }
-	a:visited{color: black}
+
 	a:hover{color: blue}
-ul {
-	list-style: none;
-	font-family: Arial;
+
+h4 {
+	position: relative;
+	left: 320px;
+	bottom: 210px;
 }
-#one-content {
-	padding-bottom: 10px;
+
+hr {
+	width: 900px;
 }
-#two-content {
-	padding-bottom: 10px;
+
+.content {
+	height: 605px;
+	width: 900px;
 }
-#free-content {
-	padding-bottom: 10px;
+
+.skils1 {
+	font-size: 32px;
+	font-weight: bold; 
+	color: #333;
+	position: relative;
+	bottom: 30px;
+	left: 40px;
 }
-#four-content {
-	padding-bottom: 10px;
+
+.html {
+	font-size: 20px;
+	font-weight: bold; 
+	color: #333;
+	position: relative;
+	left: 40px;
+	top: 20px;
+
 }
-#five-content {
-	padding-bottom: 10px;
+
+.text1 {
+	position: relative;
+	left: 40px;
+	width: 600px;
+	height: 100px;
+	top: 20px;
+	text-indent: 20px;
+}
+
+.educ {
+	font-size: 20px;
+	font-weight: bold; 
+	color: #333;
+	position: relative;
+	left: 40px;
+	top: 60px;
+
+}
+
+.text2 {
+	position: relative;
+	left: 40px;
+	width: 600px;
+	height: 100px;
+	top: 60px;
+	text-indent: 20px;
+}
+
+.work {
+	font-size: 20px;
+	font-weight: bold; 
+	color: #333;
+	position: relative;
+	left: 40px;
+	top: 100px;
+
+}
+
+.text3 {
+	position: relative;
+	left: 40px;
+	width: 600px;
+	height: 100px;
+	top: 100px;
+	text-indent: 20px;
+}
+
+.footer {
+	position: relative;
+	top: 10px;
+	left: 30px;
+}
+
+.footer_h3 {
+	font-size:20px; 
+	font-style:italic;
+	font-weight: bold; 
+	color:#173D5F;
 }

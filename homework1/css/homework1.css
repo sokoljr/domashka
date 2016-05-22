@@ -76,6 +76,10 @@ body {
 	font: normal 16px Arial;
 }
 
+.float_left : last-child {
+	border-bottom: none;
+}
+
 .float_right {
 	width: 680px;
 	height: 400px;
@@ -88,12 +92,13 @@ body {
 .text {
 	font: normal 16px Arial;
 	width: 580px;
-	height: 220px;
+	height: 180px;
 	float: right;
 	text-align: left;
 	margin-top: 40px;
 	margin-bottom: -40px;
 	margin-right: 93px;
+	text-indent: 30px;
 }
 
 .footer {
@@ -115,13 +120,13 @@ body {
 	margin-right: 70px;
 }
 
-.all {
-	float: right;
-	margin-right: 36px;
-}
-
 .footer ul li a {
 	color: #030303;
 	font: normal 16px Arial;
 	text-decoration: none;
+}
+
+.last {
+	position: absolute;
+	left: 1200px;
 }
