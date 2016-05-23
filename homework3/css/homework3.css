@@ -1,12 +1,13 @@
 body {
 	background-color: #f9f9f9;
+	background-size: 100%;
 }
 
 .conteiner {
 	background-color: white;
-	width: 1060px;
-	margin: 10px auto;
+    width: 1060px;
 	height: 950px;
+	margin: 0 auto;
 	border-left: 1px solid gray;
 	border-right: 1px solid gray;
 }
@@ -76,8 +77,8 @@ body {
 	font: normal 16px Arial;
 }
 
-.float_left li: last-child {
-	border-bottom: 0;
+.float_left li:last-child {
+	border-bottom-style: none;
 }
 
 .float_right {
@@ -126,6 +127,6 @@ body {
 	text-decoration: none;
 }
 
-.last {
-	float: left;
+.footer li:last-child {
+	float: right;
 }
