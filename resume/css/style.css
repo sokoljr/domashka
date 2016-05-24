@@ -1,0 +1,65 @@
+*	 {
+	margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+body {
+	background-color: lightgray;
+	font: Arial helvetica sans-serif;
+}
+
+.wrapper {
+	width: 980px;
+	margin: 0 auto;
+	padding: 60px 50px;
+	background-color: gray;
+}
+
+header {
+	padding: 20px 0;
+}
+
+img {
+	float: left;	
+}
+
+h1 {
+	float: left;
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.wrapper p {
+	width: 60%;
+	margin: 0;
+	float: left;
+}
+
+.menu_top {
+	float: left;
+}
+
+.menu_top li a {
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
