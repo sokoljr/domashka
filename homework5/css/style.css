@@ -3,7 +3,74 @@
 }
 
 body {
-	font-family: Tahoma, Arial, sans-serif;
-	background: url(../img/homework5.jpg) no-repeat;
+	font-family: Tahoma;
+	background: url(../img/homework5.jpg) no-repeat center center fixed;
+	background-size: contain;
 }
-	
+
+header {
+	color: #fff;
+  	background: rgba(22,22,22, 0.63);
+  	height: 62px;
+  	width: 560px;
+  	margin: auto;
+  	margin-bottom: 2px;
+}
+
+h1 {
+	font-size: 24px;
+	text-align: center;
+	line-height: 62px;
+}
+
+main {
+	color: #fff;
+  	background: rgba(22,22,22, 0.63);
+  	height: 550px;
+  	width: 560px;
+  	margin: auto;
+}
+
+.buttonfb {
+	height: 35px;
+	width: 276px;
+	margin: 0 auto;
+	padding-top: 36px;
+	padding-bottom: 32px;
+}
+
+.hr_hr {
+	width: 276px;
+	margin: 0 auto;
+	padding-top: 27px; 
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #999999;
+}
+
+.hr_hr span {
+    display: inline-block;
+    margin: 0.4em;
+}
+
+.hr_hr span:before,
+.hr_hr span:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid black;
+    margin-top: .6em;
+}
+
+.hr_hr span:before {
+    margin-left: -102%;
+}
+
+.hr_hr span:after {
+    margin-left: 2%;
+}
+
