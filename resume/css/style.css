@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
 *	 {
 	margin:0; 
     padding:0; 
@@ -6,6 +8,11 @@
 
 a {
 	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: blue;
 }
 
 .clearfix:after {
@@ -19,47 +26,60 @@ body {
 	font: Arial helvetica sans-serif;
 }
 
+
 .wrapper {
-	width: 980px;
-	margin: 0 auto;
+	width: 1060px;
+	margin: 10px auto;
 	padding: 60px 50px;
 	background-color: gray;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+   	-23px 0 20px -23px rgba(0, 0, 0, .8),
+   	23px 0 20px -23px rgba(0, 0, 0, .8),
+   	0 0 40px rgba(0, 0, 0, .1) inset;
 }
 
-header {
-	padding: 20px 0;
-}
-
-img {
-	float: left;	
+.header {
+	float: right;
+	width: 600px;
+	margin-right: 100px;
 }
 
 h1 {
-	float: left;
-	font-size: 42px;
-	font-weight: bold;
+	font-family: "Montserrat";
+	font-size: 40px;
+	padding-bottom: 20px;
 }
 
-.wrapper p {
-	width: 60%;
-	margin: 0;
-	float: left;
+p {
+	font-family: Arial;
+	font-size: 16px;
+	padding-bottom: 20px;
+	
 }
 
-.menu_top {
-	float: left;
+.menu_top li {
+	padding-bottom: 5px;
 }
 
-.menu_top li a {
-	color: black;
+.main_wrapper {
+	padding-top: 60px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 20px;
 }
 
+.main_skil {
+	font-family: "Montserrat";
+	font-size: 35px;
+	padding-bottom: 10px;
+}
 
+.skil {
+	font-family: "Montserrat";
+	font-size: 27px;
+	padding-bottom: 10px;
+}
 
-
-
-
-
-
-
-
+.footer {
+	padding-top: 80px;
+}
