@@ -21,7 +21,7 @@ a {
 }
 
 .wrapper {
-	width: 1060px;
+	width: 1062px;
 	border-left: 2px solid gray;
 	border-right: 2px solid gray;
 	padding: 50px 46px;
@@ -37,7 +37,7 @@ a {
 }
 
 .menu_top {
-	background-color: #838383;
+	background-color: #434141;
 }
 
 .menu_top li {
@@ -48,7 +48,7 @@ a {
 
 .menu_top li a {
 	color: white;
-	line-height: 50px;
+	line-height: 40px;
 	padding: 0 40px;
 }
 
@@ -113,25 +113,25 @@ a {
 	
 }
 
-.side_menu {
+.left_menu {
 	border: 1px solid gray;
 }
 
-.side_menu li {
+.left_menu li {
 	border-bottom: 1px solid gray;
 	padding-left: 20px; 
 }
 
-.side_menu li:hover {
+.left_menu li:hover {
     padding-left: 35px;
     transition: all 0.2s;
 }
 
-.side_menu li:last-child {
+.left_menu li:last-child {
 	border-bottom: none;
 }
 
-.side_menu li a {
+.left_menu li a {
 	color: gray;
 	line-height: 40px;
 }

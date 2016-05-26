@@ -2,18 +2,46 @@
 	box-sizing: border-box;
 }
 
+html {
+	height: 100%;
+}
+
 body {
-	font-family: Tahoma;
-	background: url(../img/homework5.jpg) no-repeat center center fixed;
-	background-size: contain;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+    height: 100%;
+}
+
+.wrapper {
+	overflow: hidden;
+	background: url(../img/bg.jpg) no-repeat center;
+    background-size: 100%;
+    display: block;
+    width: 1215px;
+    height: 1064px;
+    margin: 0 auto;
+	margin-bottom: -36px;
 }
 
 header {
+	height: 36px;
+	width: 1215px;
+	margin: 0 auto;
+	background-color: #3d63e0;
+}
+
+main {
+	
+	width: 560px;
+	margin: 0 auto;
+	padding-top: 213px;
+	display: block;
+}
+
+.header {
 	color: #fff;
   	background: rgba(22,22,22, 0.63);
-  	height: 62px;
-  	width: 560px;
-  	margin: auto;
+	height: 62px;
+  	width: 100%;
   	margin-bottom: 2px;
 }
 
@@ -23,12 +51,11 @@ h1 {
 	line-height: 62px;
 }
 
-main {
+.content_box {
 	color: #fff;
   	background: rgba(22,22,22, 0.63);
   	height: 550px;
-  	width: 560px;
-  	margin: auto;
+  	width: 100%;
 }
 
 .buttonfb {
@@ -74,3 +101,68 @@ main {
     margin-left: 2%;
 }
 
+form {
+	padding-top: 25px;
+	margin: 0 auto;
+	padding-right: 142px;
+	padding-left: 142px;
+}
+
+.input {
+	height: 34px;
+	width: 275px;
+	padding-left: 19px;
+	background-color: black;
+	color: white;
+	font-size: 14px;
+	border-top: none;
+	border-bottom: 1px solid gray;
+	border-right: none;
+	border-left: none;
+	margin-bottom: 13px;
+}
+	
+.input:hover {
+	background-color: #1b5288;
+	transition: all 0.4s;
+}
+
+.input:focus {
+    border: 3px bold #2f7bc5;
+}
+
+.checkbox {
+	margin-right: 8px;
+	padding-top: 20px;	
+}
+
+.text_ck {
+	color: #cccccc;
+	font-size: 14px;
+	margin-top: 8px;
+}
+
+.button_bottom {
+	height: 35px;
+	width: 150px;
+	margin-top: 20px;
+	border: 1px solid #4a9ff6;
+	border-radius: 3px;
+	color: white;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#65a8e4), to(#4299d2));
+	background: -moz-linear-gradient(#65a8e4, #4299d2);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#65a8e4', endColorstr='#4299d2');
+}
+
+.footer_box {
+	margin: 0 auto;
+	padding-left: 62px;
+	margin-bottom: 22px;
+} 
+
+p {
+	font-size: 11px;
+	color: #cccccc;
+	width: 309px;
+	text-align: center;
+}
