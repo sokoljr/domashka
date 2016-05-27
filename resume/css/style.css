@@ -24,10 +24,13 @@ a:hover {
 body {
 	background-color: lightgray;
 	font: Arial helvetica sans-serif;
+	
+
 }
 
 
 .wrapper {
+
 	width: 1060px;
 	margin: 10px auto;
 	padding: 60px 50px;
