@@ -3,12 +3,8 @@
 }
 
 html {
+	width: 100%;
 	height: 100%;
-}
-
-body {
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
-    height: 100%;
 }
 
 .clearfix:after {
@@ -17,20 +13,26 @@ body {
 	clear: both;
 }
 
+body {
+	height: 100%;
+    width: 100%;
+   	background-image: url(../img/bg2.jpg);
+   	background-repeat: no-repeat;
+  	background-size: cover;
+   	background-position: center;
+   	font-family: Tahoma, Sans-serif, Arial;
+   	overflow: hidden;
+}
+
 ul li a {
 	text-decoration: none;
 	font-size: 14px;
 }
 
 .wrapper {
-	overflow: hidden;
-	background: url(../img/bg.jpg) no-repeat center;
-    background-size: 100%;
-    display: block;
-    width: 1215px;
-    height: 1064px;
-    margin: 0 auto;
-	margin-bottom: -36px;
+	position: relative;
+    min-height: 100%;
+	
 }
 
 header {
@@ -70,13 +72,14 @@ header {
 	color : white;
 }
 
-
-
 main {
 	width: 560px;
 	margin: 0 auto;
 	padding-top: 213px;
 	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .header {
@@ -170,7 +173,7 @@ form {
 }
 
 .input:focus {
-    border: 3px bold #2f7bc5;
+    border: 3px solid #2f7bc5;
 }
 
 .checkbox {
