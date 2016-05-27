@@ -29,7 +29,7 @@ ul li a {
 }
 
 .wrapper {
-	position: relative;
+	
     min-height: 100%;
 	
 }
@@ -42,14 +42,8 @@ header {
 }
 
 .top_menu {
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-
-}
-
-.top_menu ul {
-	margin: 0;
+	float: right;
+	width: 740px;
 }
 
 .top_menu li {
@@ -69,14 +63,10 @@ header {
 	transition: all 0.4s;
 }
 
-.white a {
-	color : white;
-}
 
 main {
 	width: 560px;
-	padding-top: 213px;
-	display: block;
+	padding-top: 11%;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
@@ -92,8 +82,7 @@ main {
 
 h1 {
 	font-size: 24px;
-	text-align: center;
-	line-height: 62px;
+	text-align: center;	
 }
 
 .content_box {
