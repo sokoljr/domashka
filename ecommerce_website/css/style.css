@@ -1,0 +1,472 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+  font-family: BebasNeue; 
+  src: url(../fonts/BebasNeue.otf);
+}
+
+html {
+  width: 100%;
+  height: 100%
+}
+
+body {
+  background-color: #3fc5ba;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white; 
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  width: 100%;
+  height: 89px;
+  background-color: white;
+}
+
+.wrap_header_search {
+  width: 59.94%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Lobster";
+  font-size: 49px;
+  color: #3cc3b5;
+  float: left;
+  padding-top: 21px;
+  padding-bottom: 18px;
+}
+
+form {
+  float: left;
+  position: relative;
+  border: 1px solid rgb(216, 216, 216);
+  width: 38%;
+  margin-top: 2.66%;
+  margin-left: 14.88%;
+  margin-right: 14%;
+  border-radius: 2px;
+  overflow: hidden;
+  
+}
+
+.price {
+  width: 10%;
+  padding-top: 2.4%;
+  float: left;
+  font-family: BebasNeue;
+  color: #a1a1a1;
+  display: inline-block;
+  font-size: 33px;
+  overflow: hidden;
+}
+
+.price li {
+  display: inline;
+}
+
+.price .baks {
+  padding-left: 9%;
+}
+
+form input[type="text"]{
+  padding: 6px 16px;
+  outline: none;
+  color: #312c3c;
+  background: #FFFFFF;
+  border: none;
+  width: 84.33333%;
+  line-height: 1.5em;
+  position: relative;
+  font-size: 0.8725em;
+  text-transform: capitalize;
+}
+
+form input[type="submit"]{
+  background: url('../img/search.png') no-repeat 10px 5px;
+  padding: 6px 0px;
+  border: none;
+  cursor: pointer;
+  width: 8.33%;
+  line-height: 1.5em;
+  outline: none;
+  position: absolute;
+  right: 0px;
+}
+
+.header_menu {
+  width: 100%;
+  height: 36px;
+  overflow: hidden;
+}
+
+.menu_top {
+  width: 100%;
+  height: 100%;
+  padding: 0 18.7%;
+  background-color: #4ccfc1;
+  font-family: BebasNeue;
+  font-size: 21px;
+}
+
+.menu_top ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  float:left;
+}
+
+.menu_top li {
+  border-right: 2px solid white;
+  display: inline;
+}
+
+.menu_top li a {
+  line-height: 36px;
+  padding: 0 21px;
+}
+
+.menu_top li:last-child {
+  border: none;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.slider {
+  width: 100%;
+  min-width: 520px;
+  height: 447px;
+  position: relative;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.slide {
+  padding:0 10%;
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  text-align: left;
+}
+
+.slide_img {
+  float: left;
+  padding-top: 3.7%; 
+  padding-left:  13.5%;
+}
+
+.slide_content {
+  float: left;
+  width: 30%;
+  color: white;
+  padding-top: 5%;
+  padding-left: 7%;
+}
+
+.slide_h2 {
+  font-size: 61px;
+  font-weight: bold;
+  font-family: BebasNeue;
+  padding-bottom: 27px;
+}
+
+.slide_p {
+  font-size: 17px;
+  font-family: "Open Sans";
+  padding-bottom: 44px;
+}
+
+.slide_shop {
+  font-size: 27px;
+  font-family: BebasNeue;
+  border: 3px solid white;
+  border-radius: 8px;
+  padding: 4px 25px;
+}
+
+.eclipse {
+  padding-top: 12%;
+}
+
+.eclipse li {
+  display: inline;
+}
+
+.wrap_slide {
+  width: 100%;
+  min-width: 520px;
+  height: 190px;
+  position: relative;
+  margin: 0px auto;
+  overflow: hidden;
+  background-color: white;
+}
+
+.white_slide {
+  padding: 0 10%;
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  text-align: left;
+}
+
+.shoes {
+  width: 348px;
+  height: 100%;
+  float: left;
+  font-family: BebasNeue;
+  padding-left: 11%;  
+  border-right: 1px solid lightgray; 
+}
+
+.shoes1 {
+  float: left;
+  padding-top: 6.5%;
+
+}
+
+.sh_1_h {
+  font-size: 27px;
+  font-weight: bold;
+  color: #afafaf;
+  padding-bottom: 20px;
+}
+
+.shop_shoes {
+  font-size: 19px;
+  border: 1px solid transparent;
+  color: white;
+  background-color: #3cc395;
+  padding: 4.1px 16px;
+  border-radius: 4px;
+}
+
+.box_shop1 {
+  float: left;
+  padding-top: 14.1%;
+}
+
+.t_shirt {
+  width: 348px;
+  height: 100%;
+  float: left;
+  font-family: BebasNeue;
+  border-right: 1px solid lightgray;
+  
+}
+
+.shoes2 {
+  float: left;
+  padding-top: 6.5%;
+}
+
+.sh_2_h {
+  font-size: 27px;
+  font-weight: bold;
+  color: #afafaf;
+  padding-bottom: 20px;
+}
+
+.shop_shoes2 {
+  font-size: 19px;
+  border: 1px solid transparent;
+  color: white;
+  background-color: #3cc395;
+  padding: 4.1px 16px;
+  border-radius: 4px;
+}
+
+.box_shop2 {
+  float: left;
+  padding-top: 13.9%;
+  padding-left: 19.3%;
+}
+
+.pants {
+  width: 348px;
+  height: 100%;
+  float: left;
+  font-family: BebasNeue;  
+}
+
+.shoes3 {
+  float: left;
+  padding-top: 6.5%;
+  padding-left: 10%;
+}
+
+.sh_3_h {
+  font-size: 27px;
+  font-weight: bold;
+  color: #afafaf;
+  padding-bottom: 20px;
+}
+
+.shop_shoes3 {
+  font-size: 19px;
+  border: 1px solid transparent;
+  color: white;
+  background-color: #3cc395;
+  padding: 4.1px 16px;
+  border-radius: 4px;
+}
+
+.box_shop3 {
+  float: left;
+  padding-top: 13.9%;
+  padding-left: 19.3%;
+}
+
+.shoes:last-child {
+  border: none;
+}
+
+.product {
+ width: 100%;
+ height: 67px;
+}
+
+.wrap {
+  padding: 0 10%;
+  width: 80%;
+  height: 100%;
+}
+
+.main1 {
+  padding-top: 1.22%;
+  padding-left: 15%;
+}
+
+h3 {
+  font-family: BebasNeue;
+  color: white;
+  font-size: 31px;
+  font-weight: bold;
+}
+
+.shop {
+  width: 100%;
+  height: 688px;
+  background-color: white;
+
+}
+
+.wrap_shop {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.main_shop {
+  padding: 2%;
+  width: 100%:;
+  height: 100%;
+}
+
+.for_shop1, .for_shop2 {
+  font-size: 27px;
+  font-family: BebasNeue; 
+  color: #afafaf;
+  font-weight: bold;
+}
+
+.for_shop2 {
+  margin-top: 5%; 
+}
+
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6 {
+  margin-top: 9%;
+}
+
+.st1_shop {
+  text-align: center;
+  width: 100%;
+  height: 38%;
+  margin-top: 1.1%;
+}
+
+.st2_shop {
+  text-align: center;
+  width: 100%;
+  height: 38%;
+  margin-top: 3%;
+}
+
+.shoe1, .shoe4 {
+  float: left;
+  width: 253px;
+  height: 255px;
+  margin: 0% 4% 0% 13.2%;
+  position: relative;
+  border-top:1px solid lightgray;
+  border-left:1px solid lightgray;
+  border-right:1px solid lightgray;
+  border-bottom: 5px solid #3cc395;
+}
+
+
+.price_main {
+  width: 100%;
+  padding-top: 6.5%;
+  
+}
+
+.price_main h4 {
+  font-family: BebasNeue;
+  font-size: 27px;
+  font-weight: bold;
+  color: #afafaf;
+}
+
+.price_main li {
+  float: left;
+  display: inline;
+  padding-left: 29%;
+}
+
+.price_main span {
+  font-family: BebasNeue;
+  font-size: 20px;
+  color: white;
+  background-color: #3cc395;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 3px 12px;
+}
+
+.last_span li:last-child {
+  padding-left: 11%
+}
+
+
+.shoe2, .shoe3, .shoe5, .shoe6 {
+  float: left;
+  width: 253px;
+  height: 255px;
+  margin: 0% 4% 0% 0%;
+  position: relative;
+  border-top:1px solid lightgray;
+  border-left:1px solid lightgray;
+  border-right:1px solid lightgray;
+  border-bottom: 5px solid #3cc395;
+}
