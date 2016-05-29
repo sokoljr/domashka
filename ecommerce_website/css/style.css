@@ -9,7 +9,7 @@
 
 html {
   width: 100%;
-  height: 100%
+  height: 100%;
 }
 
 body {
@@ -143,7 +143,7 @@ form input[type="submit"]{
   border: none;
 }
 
-main {
+.main_wrapper {
   width: 100%;
   height: 100%;
 }
@@ -379,8 +379,8 @@ h3 {
 
 .main_shop {
   padding: 2%;
-  width: 100%:;
-  height: 100%;
+  width: 100%;
+  height: 91%;
 }
 
 .for_shop1, .for_shop2 {
@@ -401,14 +401,14 @@ h3 {
 .st1_shop {
   text-align: center;
   width: 100%;
-  height: 38%;
+  height: 42%;
   margin-top: 1.1%;
 }
 
 .st2_shop {
   text-align: center;
   width: 100%;
-  height: 38%;
+  height: 42%;
   margin-top: 3%;
 }
 
@@ -458,7 +458,6 @@ h3 {
   padding-left: 11%
 }
 
-
 .shoe2, .shoe3, .shoe5, .shoe6 {
   float: left;
   width: 253px;
@@ -469,4 +468,60 @@ h3 {
   border-left:1px solid lightgray;
   border-right:1px solid lightgray;
   border-bottom: 5px solid #3cc395;
+}
+
+.bottom_menu {
+  height: 35%;
+  width: 100%;
+
+}
+
+.box_menu {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapp_click {
+padding: 2.5% 2.5% 1.8% 2.5%;
+width: 100%;
+height: 80%;
+}
+
+h5 {
+  font-family: BebasNeue;
+  font-size: 27px;
+  color: white;
+  padding-bottom: 17%;
+}
+
+.first_content_box {
+  float: left;
+  margin-left: 12.5%;
+}
+
+.content1_box ul li a {
+  font-family: "Open Sans";
+  color: white;
+  font-size: 15px;
+}
+
+.content1_box li {
+  padding-bottom: 9.9%;
+}
+
+.second_content_box, .third_content_box, .fourth_content_box {
+  float: left;
+  margin-left: 7.5%;
+}
+
+.footer {
+  width: 100%;
+  height: 46px;
+  background-color: #2da89b;
+  color: white;
+  font-size: 15px;
+  font-family: "Open Sans";
+  text-align: center;
+  display: inline;
 }
