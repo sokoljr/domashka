@@ -7,17 +7,24 @@
   src: url(../fonts/BebasNeue.otf);
 }
 
+
+
 html {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
-  background-color: #3fc5ba;
   width: 100%;
   height: 100%;
 }
 
+
+
+* {
+  box-sizing: border-box;   /* MAIN STYLE*/
+
+}
 a {
   text-decoration: none;
   color: white; 
@@ -26,60 +33,40 @@ a {
 .clearfix:after {
   content: "";
   display: table;
-  clear: both;
+  clear: both;          /* END OF MAIN STYLE*/
 }
 
-header {
-  width: 100%;
-  height: 89px;
-  background-color: white;
+
+
+
+    
+.wrap_header_search {   /* HEADER */
+  padding: 20px 10%;
 }
 
-.wrap_header_search {
-  width: 59.94%;
-  height: 100%;
-  margin: 0 auto;
+.logo {
+  line-height: 35px;
+  display: inline-block;
 }
 
 h1 {
   font-family: "Lobster";
   font-size: 49px;
   color: #3cc3b5;
-  float: left;
-  padding-top: 21px;
-  padding-bottom: 18px;
+}
+
+.form_search {
+  display: inline-block;
+  width: 40%;
+  margin: 0.5% 20% 0;
 }
 
 form {
-  float: left;
   position: relative;
   border: 1px solid rgb(216, 216, 216);
-  width: 38%;
-  margin-top: 2.66%;
-  margin-left: 14.88%;
-  margin-right: 14%;
-  border-radius: 2px;
-  overflow: hidden;
-  
-}
-
-.price {
-  width: 10%;
-  padding-top: 2.4%;
-  float: left;
-  font-family: BebasNeue;
-  color: #a1a1a1;
+  width: 100%;
   display: inline-block;
-  font-size: 33px;
   overflow: hidden;
-}
-
-.price li {
-  display: inline;
-}
-
-.price .baks {
-  padding-left: 9%;
 }
 
 form input[type="text"]{
@@ -106,18 +93,44 @@ form input[type="submit"]{
   position: absolute;
   right: 0px;
 }
+  
 
-.header_menu {
-  width: 100%;
-  height: 36px;
-  overflow: hidden;
+.basket {
+  float: right;
+  width: 8%;
+}
+
+.price {
+ font-family: BebasNeue;
+ color: #a1a1a1;
+}
+
+.price li {
+  float: left;
+}
+
+.price li:last-child {
+  padding-left: 5%;
+  padding-top: 8%;
+
+}
+
+.baks {
+  font-size: 33px;
+  font-weight: bold;
+}                               /* END OF HEADER */
+
+
+
+
+
+.header_menu {                   /* HEADER MENU*/
+  background-color: #4CCFC1;
+  padding: 0.1% 0;
 }
 
 .menu_top {
-  width: 100%;
-  height: 100%;
   padding: 0 18.7%;
-  background-color: #4ccfc1;
   font-family: BebasNeue;
   font-size: 21px;
 }
@@ -126,12 +139,11 @@ form input[type="submit"]{
   list-style:none;
   margin:0;
   padding:0;
-  float:left;
 }
 
 .menu_top li {
   border-right: 2px solid white;
-  display: inline;
+  float: left;
 }
 
 .menu_top li a {
@@ -141,57 +153,48 @@ form input[type="submit"]{
 
 .menu_top li:last-child {
   border: none;
+}                                   /* END OF HEADER MENU*/
+
+
+
+
+
+
+.wrapp_slide  {                              /* MAIN SLIDE*/
+  background-color: #42c4b9;
+  height: 55%;
+  padding: 2% 12%;
 }
 
-.main_wrapper {
+.slide {                                 
   width: 100%;
-  height: 100%;
-}
-
-.slider {
-  width: 100%;
-  min-width: 520px;
-  height: 447px;
   position: relative;
-  margin: 0px auto;
-  overflow: hidden;
-}
-
-.slide {
-  padding:0 10%;
-  position: absolute;
-  width: 80%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  text-align: left;
+  padding: 2% 12%;
 }
 
 .slide_img {
   float: left;
-  padding-top: 3.7%; 
-  padding-left:  13.5%;
+  display: block;
 }
 
 .slide_content {
   float: left;
   width: 30%;
   color: white;
-  padding-top: 5%;
-  padding-left: 7%;
+  margin-left: 5%;
 }
 
 .slide_h2 {
   font-size: 61px;
   font-weight: bold;
   font-family: BebasNeue;
-  padding-bottom: 27px;
+  margin-bottom: 10%;
 }
 
 .slide_p {
   font-size: 17px;
   font-family: "Open Sans";
-  padding-bottom: 44px;
+  margin-bottom: 10%;
 }
 
 .slide_shop {
@@ -200,42 +203,44 @@ form input[type="submit"]{
   border: 3px solid white;
   border-radius: 8px;
   padding: 4px 25px;
+  display: inline-block;
 }
 
-.eclipse {
-  padding-top: 12%;
+.slide_controls1 {
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  transform: translateY(-100%);
 }
 
 .eclipse li {
-  display: inline;
-}
+  float: left;
+}                                           /* MAIN SLIDE*/
 
-.wrap_slide {
+
+
+
+
+
+.wrap_slide_white {                         /*SLIDE WHITE BG*/
   width: 100%;
   min-width: 520px;
   height: 190px;
   position: relative;
   margin: 0px auto;
-  overflow: hidden;
   background-color: white;
 }
 
 .white_slide {
-  padding: 0 10%;
-  position: absolute;
-  width: 80%;
+  padding: 0 18%;
   height: 100%;
-  top: 0px;
-  left: 0px;
-  text-align: left;
 }
 
 .shoes {
   width: 348px;
   height: 100%;
   float: left;
-  font-family: BebasNeue;
-  padding-left: 11%;  
+  font-family: BebasNeue;  
   border-right: 1px solid lightgray; 
 }
 
@@ -337,18 +342,23 @@ form input[type="submit"]{
   padding-left: 19.3%;
 }
 
-.shoes:last-child {
+.pants {
   border: none;
-}
+}                                                 /*SLIDE WHITE BG*/
 
-.product {
+
+
+
+
+
+.product {                                            /*product*/
+ background-color: #42c4b9;
  width: 100%;
  height: 67px;
 }
 
 .wrap {
   padding: 0 10%;
-  width: 80%;
   height: 100%;
 }
 
@@ -362,25 +372,25 @@ h3 {
   color: white;
   font-size: 31px;
   font-weight: bold;
-}
+}                                                       /*end product*/
 
-.shop {
-  width: 100%;
+
+
+
+
+.shop {                                                 /* SHOP 6*/
   height: 688px;
-  background-color: white;
-
 }
 
 .wrap_shop {
-  width: 80%;
   height: 100%;
+  width: 80%;
   margin: 0 auto;
 }
 
 .main_shop {
   padding: 2%;
-  width: 100%;
-  height: 91%;
+  height: 100%;
 }
 
 .for_shop1, .for_shop2 {
@@ -468,12 +478,17 @@ h3 {
   border-left:1px solid lightgray;
   border-right:1px solid lightgray;
   border-bottom: 5px solid #3cc395;
-}
+}                                           /* END OF SHOP 6*/
 
-.bottom_menu {
+
+
+
+
+
+
+.bottom_menu {                                  /* bottom content 6*/
+  background-color: #42c4b9;
   height: 35%;
-  width: 100%;
-
 }
 
 .box_menu {
@@ -483,9 +498,9 @@ h3 {
 }
 
 .wrapp_click {
-padding: 2.5% 2.5% 1.8% 2.5%;
-width: 100%;
-height: 80%;
+  padding: 2.5% 2.5% 0 2.5%;
+  
+  height: 100%;
 }
 
 h5 {
@@ -513,15 +528,58 @@ h5 {
 .second_content_box, .third_content_box, .fourth_content_box {
   float: left;
   margin-left: 7.5%;
-}
+}                                                 /* end of bottom content 6*/
+
+
+
+
+
 
 .footer {
-  width: 100%;
-  height: 46px;
-  background-color: #2da89b;
+  background-color: #4CCFC1;
   color: white;
   font-size: 15px;
   font-family: "Open Sans";
   text-align: center;
-  display: inline;
+  padding: 0.5% 0;
 }
+
+
+  @media screen and (min-width: 1220px) and (max-width:1900px) {    /* 1920px-1600px */
+
+.form_search {                          /* HEADER */
+  display: inline-block;
+  width: 30%;  
+}
+
+form input[type="submit"]{
+  width: 12%;
+}  
+
+.basket {
+  width: 10%;
+}                                   /* END OF HEADER */
+
+
+.menu_top {                             /* HEADER MENU*/
+  padding-left: 18.7%;
+  padding-right: 0;
+  font-family: BebasNeue;
+  font-size: 21px; 
+}                                     /*END OF HEADER MENU*/
+
+
+.wrapp_slide  {                              /* MAIN SLIDE*/
+height: 65%;
+}
+
+.slide_content {
+width: 55%; 
+}                                            /*end main slide*/
+
+
+.white_slide {                                /*white slide*/
+  padding-right: 1%;
+  padding-left: 16%;
+}
+ 
