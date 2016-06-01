@@ -7,8 +7,6 @@
   src: url(../fonts/BebasNeue.otf);
 }
 
-
-
 html {
   width: 100%;
   min-height: 100%;
@@ -19,12 +17,10 @@ body {
   height: 100%;
 }
 
-
-
 * {
   box-sizing: border-box;   /* MAIN STYLE*/
-
 }
+
 a {
   text-decoration: none;
   color: white; 
@@ -36,12 +32,8 @@ a {
   clear: both;          /* END OF MAIN STYLE*/
 }
 
-
-
-
-    
 .wrap_header_search {   /* HEADER */
-  padding: 20px 10%;
+  padding: 15px 11%;
 }
 
 .logo {
@@ -94,7 +86,6 @@ form input[type="submit"]{
   right: 0px;
 }
   
-
 .basket {
   float: right;
   width: 8%;
@@ -112,7 +103,6 @@ form input[type="submit"]{
 .price li:last-child {
   padding-left: 5%;
   padding-top: 8%;
-
 }
 
 .baks {
@@ -120,17 +110,15 @@ form input[type="submit"]{
   font-weight: bold;
 }                               /* END OF HEADER */
 
-
-
-
-
 .header_menu {                   /* HEADER MENU*/
   background-color: #4CCFC1;
   padding: 0.1% 0;
 }
 
 .menu_top {
-  padding: 0 18.7%;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 12%;
   font-family: BebasNeue;
   font-size: 21px;
 }
@@ -155,15 +143,11 @@ form input[type="submit"]{
   border: none;
 }                                   /* END OF HEADER MENU*/
 
-
-
-
-
-
 .wrapp_slide  {                              /* MAIN SLIDE*/
   background-color: #42c4b9;
   height: 55%;
   padding: 2% 12%;
+  position: relative;
 }
 
 .slide {                                 
@@ -201,30 +185,24 @@ form input[type="submit"]{
   font-size: 27px;
   font-family: BebasNeue;
   border: 3px solid white;
-  border-radius: 8px;
-  padding: 4px 25px;
+  border-radius: 7px;
+  padding: 3px 15px 3px;
   display: inline-block;
 }
 
 .slide_controls1 {
-  display: inline-block;
   position: absolute;
-  top: 100%;
-  transform: translateY(-100%);
+  left: 48%;
+  transform: translateX(-48%);
+  bottom: 36px;
 }
 
 .eclipse li {
   float: left;
 }                                           /* MAIN SLIDE*/
 
-
-
-
-
-
 .wrap_slide_white {                         /*SLIDE WHITE BG*/
   width: 100%;
-  min-width: 520px;
   height: 190px;
   position: relative;
   margin: 0px auto;
@@ -247,7 +225,6 @@ form input[type="submit"]{
 .shoes1 {
   float: left;
   padding-top: 6.5%;
-
 }
 
 .sh_1_h {
@@ -264,6 +241,7 @@ form input[type="submit"]{
   background-color: #3cc395;
   padding: 4.1px 16px;
   border-radius: 4px;
+  display: inline-block;
 }
 
 .box_shop1 {
@@ -277,7 +255,6 @@ form input[type="submit"]{
   float: left;
   font-family: BebasNeue;
   border-right: 1px solid lightgray;
-  
 }
 
 .shoes2 {
@@ -299,6 +276,7 @@ form input[type="submit"]{
   background-color: #3cc395;
   padding: 4.1px 16px;
   border-radius: 4px;
+  display: inline-block;
 }
 
 .box_shop2 {
@@ -334,6 +312,7 @@ form input[type="submit"]{
   background-color: #3cc395;
   padding: 4.1px 16px;
   border-radius: 4px;
+  display: inline-block;
 }
 
 .box_shop3 {
@@ -345,11 +324,6 @@ form input[type="submit"]{
 .pants {
   border: none;
 }                                                 /*SLIDE WHITE BG*/
-
-
-
-
-
 
 .product {                                            /*product*/
  background-color: #42c4b9;
@@ -408,17 +382,13 @@ h3 {
   margin-top: 9%;
 }
 
-.st1_shop {
+.st1_shop, .st2_shop {
   text-align: center;
   width: 100%;
-  height: 42%;
   margin-top: 1.1%;
 }
 
 .st2_shop {
-  text-align: center;
-  width: 100%;
-  height: 42%;
   margin-top: 3%;
 }
 
@@ -434,11 +404,9 @@ h3 {
   border-bottom: 5px solid #3cc395;
 }
 
-
 .price_main {
   width: 100%;
   padding-top: 6.5%;
-  
 }
 
 .price_main h4 {
@@ -480,12 +448,6 @@ h3 {
   border-bottom: 5px solid #3cc395;
 }                                           /* END OF SHOP 6*/
 
-
-
-
-
-
-
 .bottom_menu {                                  /* bottom content 6*/
   background-color: #42c4b9;
   height: 35%;
@@ -499,7 +461,6 @@ h3 {
 
 .wrapp_click {
   padding: 2.5% 2.5% 0 2.5%;
-  
   height: 100%;
 }
 
@@ -530,11 +491,6 @@ h5 {
   margin-left: 7.5%;
 }                                                 /* end of bottom content 6*/
 
-
-
-
-
-
 .footer {
   background-color: #4CCFC1;
   color: white;
@@ -545,7 +501,7 @@ h5 {
 }
 
 
-  @media screen and (min-width: 1220px) and (max-width:1900px) {    /* 1920px-1600px */
+@media screen and (min-width: 1220px) and (max-width:1900px) {    /* 1920px-1600px */
 
 .form_search {                          /* HEADER */
   display: inline-block;
@@ -560,14 +516,13 @@ form input[type="submit"]{
   width: 10%;
 }                                   /* END OF HEADER */
 
-
 .menu_top {                             /* HEADER MENU*/
-  padding-left: 18.7%;
-  padding-right: 0;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
   font-family: BebasNeue;
   font-size: 21px; 
 }                                     /*END OF HEADER MENU*/
-
 
 .wrapp_slide  {                              /* MAIN SLIDE*/
 height: 65%;
@@ -577,9 +532,7 @@ height: 65%;
 width: 55%; 
 }                                            /*end main slide*/
 
-
 .white_slide {                                /*white slide*/
   padding-right: 1%;
   padding-left: 16%;
 }
- 
