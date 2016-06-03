@@ -115,6 +115,10 @@ div.header_menu ul li:last-child {
   width: 38%;
 }
 
+.slide_img3 {
+  margin-left: 24px;
+}
+
 .main_img {
   display: block;
   max-width: 100%;
@@ -293,9 +297,14 @@ div.header_menu ul li:last-child {
   float: right;
 }
 
+.shoe2, .shoe3, .shoe6 {
+  padding: 8px;
+}
+
 .price_main {
   display: block;
   margin: 0 auto;
+  margin-top: 10px;
 }
 
 .pic1 {
