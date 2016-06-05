@@ -12,6 +12,7 @@ html {
   min-height: 100%;
 }
 
+
 body {
   width: 100%;
   height: 100%;
@@ -25,6 +26,7 @@ a {
   text-decoration: none;
   color: white; 
 }
+
 
 .clearfix:after {
   content: "";
@@ -75,14 +77,14 @@ h1 {
 }                              /* END OF HEADER */
 
 .header_menu {                   /* HEADER MENU*/
-  padding: 10px 11.8%;
+  padding: 9px 11.8%;
   background-color: #4ccfc1;
   text-align: center;
 }
 
 .header_menu ul li {
   display: inline-block;
-  padding: 0 19px;
+  padding: 0 20px;
   border-left: 2px solid white;
   font-size: 21px;
   font-family: BebasNeue, Arial, Sans-serif;
@@ -101,7 +103,7 @@ div.header_menu ul li:last-child {
 
 .wrapp_slide  {                              /* MAIN SLIDE*/
   background-color: #3bc7b0;
-  padding: 62px 11.8% 55px;
+  padding: 57px 11.8% 55px;
   position: relative;
 }
 
@@ -142,14 +144,14 @@ div.header_menu ul li:last-child {
 .slide_p {
   font: 17px "Open Sans";
   color: white;
-  margin-bottom: 35px;
+  margin-bottom: 19px;
 }
 
 .slide_shop {
-  padding: 6px 23px 3px;
+  padding: 6px 26px 3px;
   background-color: #3bc7b0;
   border: 3px solid white;
-  border-radius: 7px;
+  border-radius: 10px;
   background-clip: padding-box;
   font: 27px BebasNeue;
   text-transform: uppercase;
@@ -187,6 +189,9 @@ div.header_menu ul li:last-child {
   font-size: 27px;
   font-weight: bold;
   color: #afafaf;
+  line-height: 30px;
+  max-height: 60px;
+  overflow: hidden;
 }
 
 .shoes, .t_shirt, .pants {              
@@ -196,6 +201,7 @@ div.header_menu ul li:last-child {
   float: left;
   font-family: BebasNeue;  
   border-right: 1px solid lightgray; 
+  position: relative;
 }
 
 .pants {
@@ -203,16 +209,26 @@ div.header_menu ul li:last-child {
 }
 
 .slide_img1, .slide_img2, .slide_img3 {
-  float: left;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 55%;
+  height: 150px;
 }
 
 .shoes1, .shoes2, .shoes3 {
   display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .box_shop1, .box_shop2, .box_shop3 {
-  display: inline-block;
-  text-align: left;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 45%;
 }
 
 .shop_button {
@@ -266,7 +282,7 @@ div.header_menu ul li:last-child {
 }                                                /*end product*/
 
 .shop {                                            /* SHOP 6*/
-  padding: 46px 11.8% 75px;
+  padding: 46px 11.8% 61px;
   text-align: center;
 }
 
@@ -275,13 +291,13 @@ div.header_menu ul li:last-child {
 }
 
 .bottom_shop {
-  margin-top: 25px;
+  margin-top: 38px;
 }
 
 .shoe1, .shoe2, .shoe3, .shoe4, .shoe5, .shoe6 {
   float: left;
-  width: 253px;
-  height: 255px;
+  width: 28.5%;
+  /*height: 255px;*/
   border-top: 2px solid lightgray;
   border-right: 2px solid lightgray;
   border-left: 2px solid lightgray;
@@ -297,30 +313,40 @@ div.header_menu ul li:last-child {
   float: right;
 }
 
-.shoe2, .shoe3, .shoe6 {
-  padding: 8px;
+.pic_img {
+  height: 120px;
+  padding: 10px 5px 0 5px;
 }
 
 .price_main {
   display: block;
   margin: 0 auto;
   margin-top: 10px;
+  margin-bottom: 7px;
 }
 
 .pic1 {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 h4 {
+  max-width: 100%;
   font-family: BebasNeue;
   font-size: 27px;
+  line-height: 54px;
   font-weight: bold;
   color: #afafaf;
 }
 
+.last_span li {
+  display: inline-block;
+}
+
 .main_shop {
-  padding: 6px 20px 6px;
+  padding: 6px 11px 6px;
   background-color: #3cc395;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -333,7 +359,7 @@ h4 {
 }                                           /* END OF SHOP 6*/
 
 .bottom_menu {                                  /* bottom content 6*/
-  padding: 40px 11.8% 27px;
+  padding: 39px 11.8% 27px;
   background-color: #3cc3b5;
 }
 
@@ -352,10 +378,10 @@ h5 {
 }
 
 .content1_box li {
-  margin-bottom: 7px;
+  margin-bottom: 9px;
 }    
 
-.content1_box ul li a {
+.content1_box a {
   font: 15px "Open Sans", Arial, sans-serif;
   color: white;
 }                                     /* end of bottom content 6*/
