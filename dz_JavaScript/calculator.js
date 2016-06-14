@@ -41,24 +41,26 @@ if (result !== null)
 // Задача калькулятор
 
 var x,y;
-x = userInput('Введите первое число');
+x = userInput('first');
 var z = prompt('введите знак - сложение,вычитание,умножение или деление', '');
-y = userInput('Введите второе число');
+y = userInput('second');
 alert(calc(x,y,z));
 
 function userInput(name) {
 	var number;
 	do {
 		number = (prompt("Enter " + name + " number"));
-		number = (checkNumber(number);
+		number = (checkNumber(number));
 	}while(number===false);
 	return number;
 }
 
 function checkNumber(number) {
-	if (isNaN(number) && number==="")
-		return false;
-	return parseFloat(number);
+    if (isNaN(parseFloat(number))) {
+        alert('Вы ввели не число!');
+        return false;
+    }
+    return parseFloat(number);
 }
 
 function calc(x,y,z) {
