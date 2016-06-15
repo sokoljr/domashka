@@ -26,8 +26,9 @@ var length = arr.length;
 var num;
 for(var i = 0; i < length; i++) {
  num = arr[i];
- if(num !== null) {
-   arr2.push(num * num);
- }
+ num = num*num;
+  if (num > 100) {
+    arr2.push(num);
+  }
 }
 console.log(arr2);
