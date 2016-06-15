@@ -40,22 +40,22 @@ if (result !== null)
 
 // Задача калькулятор
 
-var x,y;
+var x,y; // Ввод пользователя
 x = userInput('first');
-var z = prompt('введите знак - сложение,вычитание,умножение или деление', '');
+var z = prompt('Enter operation sign', '');
 y = userInput('second');
-alert(calc(x,y,z));
+alert(calc(x,y,z)); //Выводим результат
 
-function userInput(name) {
+function userInput(name) { //Функция, которая получает числа от пользователя. Запускает цикл до тех пор, пока пользователь не введет корректное значение
 	var number;
 	do {
-		number = (prompt("Enter " + name + " number"));
-		number = (checkNumber(number));
-	}while(number===false);
+		number = prompt("Enter " + name + " number");
+		number = checkNumber(number);
+	} while (number === false);
 	return number;
 }
 
-function checkNumber(number) {
+function checkNumber(number) { // Функция проверяет введенное число и выводит сообщение об ошибке, если ввод не число
     if (isNaN(parseFloat(number))) {
         alert('Вы ввели не число!');
         return false;
@@ -63,14 +63,14 @@ function checkNumber(number) {
     return parseFloat(number);
 }
 
-function calc(x,y,z) {
+function calc(x,y,z) { // Калькулятор
 switch(z) {
     case "+" : return x + y;
     case "-" : return x - y;
     case "*" : return x * y;
 	case "/" : if (y === 0)
-			return "Деление на ноль запрещено!";
+			return "Division by zero!";
 		return x / y;
-	default: return "Z " + z + " is not supported";
+	default: return "Operation " + z + " is not supported";
    }
 }
