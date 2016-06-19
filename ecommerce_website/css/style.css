@@ -21,20 +21,20 @@ body {
 }
 
 * {
-  box-sizing: border-box;   /* MAIN STYLE*/
+  box-sizing: border-box;  
 }
 
 a {
   text-decoration: none;
   color: white; 
-}
+}                                       /* MAIN STYLE*/
 
 
 .clearfix:after {
   content: "";
   display: table;
-  clear: both;          /* END OF MAIN STYLE*/
-}
+  clear: both;          
+}                                   /* END OF MAIN STYLE*/
 
 .header_search {                /*Header*/
   padding: 15px 11.8%;
@@ -270,7 +270,6 @@ nav.header_menu ul li:last-child {
   border-radius: 5px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
 }
 
 .second_slider_container .second_slider_controls {

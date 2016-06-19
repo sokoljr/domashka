@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;  
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;          
+} 
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}    
+                          
