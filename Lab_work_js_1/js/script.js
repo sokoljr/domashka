@@ -1,8 +1,9 @@
-var all = " "; // вывод всех свойств window
-  for (var prop in window) {
-    all += window.prop + "<br>";
-  }
-  document.write(all);
+//Вывод свойств объекта window на страницу, каждое с новой строчки
+var properties = '';
+for (var property in window) {
+    properties += '<p>' + property + ': ' + window[property] + '</p>';
+}
+document.write(properties);
 
 var newWin;
 
@@ -18,12 +19,12 @@ function resizeWinTo() {  // функция меняет размер
 resizeWinTo();
 
 function scrollBotoom() {
-	window.scrollTo(1300, 1300); // Здесь не понял как скролить основное окно ?!
+	window.scrollTo(0, 0); // Здесь не понял как скролить основное окно ?!
 }
 scrollBotoom();
 
 function userAgent() { // Здесь Алерт вылетает раньше чем новое окно с w3schools .... 			
-	alert(window.navigator.userAgent)
+	alert(window.navigator.userAgent);
 }
 setTimeout(userAgent, 2000);
 
