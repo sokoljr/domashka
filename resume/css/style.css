@@ -1,6 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Proza+Libre);
+@import url(https://fonts.googleapis.com/css?family=Bangers);
 
-*	 {
+
+* {
 	margin:0; 
     padding:0; 
     box-sizing: border-box;
@@ -23,14 +25,9 @@ a:hover {
 
 body {
 	background-color: lightgray;
-	font: Arial helvetica sans-serif;
-	
-
 }
 
-
 .wrapper {
-
 	width: 1060px;
 	margin: 10px auto;
 	padding: 60px 50px;
@@ -41,48 +38,70 @@ body {
    	0 0 40px rgba(0, 0, 0, .1) inset;
 }
 
+.main_foto {
+	float: left;
+	display: inline-block;
+}
+
+.main_foto img {
+	display: block;
+}
+
 .header {
 	float: right;
-	width: 600px;
-	margin-right: 100px;
+	display: inline-block;
+	max-width: 600px;
+	font-family: "Proza Libre";
 }
 
 h1 {
-	font-family: "Montserrat";
+	font-family: "Bangers";
 	font-size: 40px;
 	padding-bottom: 20px;
 }
 
-p {
-	font-family: Arial;
+h2 {
+	font-family: "Bangers";
+	font-size: 35px;
+	padding-bottom: 20px;
+}
+
+h3 {
+	font-family: "Bangers";
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+
+.header p {
 	font-size: 16px;
 	padding-bottom: 20px;
-	
 }
 
 .menu_top li {
 	padding-bottom: 5px;
 }
 
-.main_wrapper {
-	padding-top: 60px;
-	padding-right: 40px;
-	padding-left: 40px;
-	padding-bottom: 20px;
+.content {
+	display: inline-block;
+	padding: 5% 8%;
 }
 
-.main_skil {
-	font-family: "Montserrat";
-	font-size: 35px;
-	padding-bottom: 10px;
+.content p {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	padding-bottom : 20px;
+	text-indent: 25px;
 }
 
-.skil {
-	font-family: "Montserrat";
-	font-size: 27px;
-	padding-bottom: 10px;
+footer {
+	display: inline-block;
+	margin-top: 20px;
 }
 
-.footer {
-	padding-top: 80px;
+footer a {
+	margin-right: 10px;
 }
+
+
+
+
