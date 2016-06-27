@@ -6,7 +6,23 @@ button {
 	font-size: 25px;
 }
 
+h2 {
+	margin-top: 50px;
+	font-size: 30px;
+}
+
+.sec {
+	margin-top: 20px;
+}
+
 #watch {
+	font-family:Tahoma, sans-serif;
+  	font-size:60px;
+  	font-weight:bold;
+  	color:#0000cc;	
+}
+
+#stopw {
 	font-family:Tahoma, sans-serif;
   	font-size:60px;
   	font-weight:bold;
