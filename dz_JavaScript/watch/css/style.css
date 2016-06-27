@@ -1,6 +1,14 @@
+body {
+	text-align: center;
+}
+
+button {
+	font-size: 25px;
+}
+
 #watch {
 	font-family:Tahoma, sans-serif;
-  	font-size:20px;
+  	font-size:60px;
   	font-weight:bold;
   	color:#0000cc;	
 }
