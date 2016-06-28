@@ -42,6 +42,14 @@ lap.addEventListener("click", lapSec);
 
 
 
+
+
+
+
+
+
+
+
 		
 
 
