@@ -1,22 +1,21 @@
-var form = document.forms.questions;
+var validate = document.getElementById("addForm");
 
-form.onsubmit = function(e) {
-    e.preventDefault();
-    var errors = document.querySelector('p.errors');
-    if(form.elements.name.value.length < 2) {
-        errors.innerHTML = "Your name is too short";
-        return;
+validate.addEventListener("click", yourAge);
+
+function yourAge () {
+    var number;
+    var result;
+
+    number = document.getElementById("age").value;
+
+    if (isNaN(number) || number < 1 || number > 99) {
+        result = "Неверный возраст";
+    } else {
+        result = " ";
     }
-    if(form.elements.surname.value.length < 2) {
-        errors.innerHTML = "Your surname is too short";
-        return;
-    }
-    if(form.elements.age.value.length > 3) {
-        errors.innerHTML = "Your age is so big";
-        return;
-    }
-    this.submit();
-};
+    document.getElementById('result').innerHTML = result;
+}
+
 
 
 
