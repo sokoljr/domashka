@@ -3,7 +3,7 @@ var timer;
 
 buttons[0].addEventListener("click", start);
 buttons[1].addEventListener("click", reset);
-document.getElementById("watch").innerHTML =  "00:00:00" // нулевой счетчик
+document.getElementById("watch").innerHTML =  "00:00:00"; // нулевой счетчик
 
 function time() { // функция самих часов
 	var d = new Date();
@@ -16,8 +16,8 @@ function start() { // функция запускает часы
 };
 
 function reset() { // функция сбрасывает время
-  window.clearInterval(timer);
-  document.getElementById("watch").innerHTML =  "00:00:00"
+  clearInterval(timer);
+  document.getElementById("watch").innerHTML =  "00:00:00";
 };
 
 // сeкундомер
@@ -26,7 +26,7 @@ var stop = document.querySelector('.stop');
 var reset = document.querySelector('.reset');
 var lap = document.querySelector('.lap');
 
-document.getElementById("stopw").innerHTML =  "00:00:00"
+document.getElementById("stopw").innerHTML =  "00:00:00";
 
 start.addEventListener("click", startSec);
 stop.addEventListener("click", stopSec);

@@ -1,8 +1,7 @@
-var validate = document.getElementById("addForm");
+var form = document.forms.add;
 
-validate.addEventListener("click", yourAge);
-
-function yourAge () {
+form.onsubmit = function(e) {
+    e.preventDefault();
     var number;
     var result;
 
@@ -15,6 +14,12 @@ function yourAge () {
     }
     document.getElementById('result').innerHTML = result;
 }
+this.submit();
+
+
+
+
+
 
 
 
