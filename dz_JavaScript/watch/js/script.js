@@ -23,8 +23,7 @@ function reset() { // функция сбрасывает время
 // сeкундомер
 var start = document.querySelector('.start');
 var stop = document.querySelector('.stop');
-var reset = document.querySelector('.reset');
-var lap = document.querySelector('.lap');
+
 
 document.getElementById("stopw").innerHTML =  "00:00:00";
 
