@@ -29,8 +29,7 @@ document.getElementById("stopw").innerHTML =  "00:00:00";
 
 start.addEventListener("click", startSec);
 stop.addEventListener("click", stopSec);
-reset.addEventListener("click", resetSec);
-lap.addEventListener("click", lapSec);
+
 
 
 
