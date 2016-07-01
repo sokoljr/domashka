@@ -1,5 +1,34 @@
 var form = document.forms.add;
+var inputs = document.getElementsByTagName('input');
+for (var i = 0; i < inputs.length; i++) {
+    inputs[i] = form.onsubmit;
+}
 
+    
+form.onsubmit = function age() {
+    var number; 
+    var result;
+    number = +document.getElementById("age").value;
+        if (isNaN(number) || number < 12 || number > 80) {
+            result = "Неверный возраст";
+            document.getElementById('result').innerHTML = result; 
+        }
+        return !result;
+};
+
+form.onsubmit = function name() {
+    var name; 
+    var result2;
+    num = document.getElementById("name").value;
+        if (name == null) {
+            result2 = "Ошибка ввода имени";
+            document.getElementById('result').innerHTML = result2;
+        }
+        return !result2;
+}
+
+/*
+var form = document.forms.add;
 form.onsubmit = function(e) {
     e.preventDefault();
     var result;
@@ -15,8 +44,10 @@ form.onsubmit = function(e) {
         document.getElementById('result').innerHTML = result;
     }
     age();
+    this.submit()
+}
 
-    function email() {
+function email() {
         var regexp = /^.+@.+\..+$/ ;
         var email;
         email = document.getElementById("email").value;
@@ -28,10 +59,7 @@ form.onsubmit = function(e) {
         document.getElementById('result').innerHTML = result;
     }
     email();
-}
-this.submit();
-
-
+*/
 
 
 
