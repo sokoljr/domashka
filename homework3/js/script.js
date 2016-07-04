@@ -30,7 +30,7 @@ console.log("Текст из copyright: " + copyright);*/
 $(document).ready(function() {
 	var $menu_top = $('ul.menu_top');
 
-	var $liSub = $($menu_top[0]).find('li:nth-child(2)');
+	var $liSub = $($menu_top[0]).find('li:nth-child(2)');// при нажатии всплывает меню
 	$liSub.on("click", subClick);
 	function subClick() {
 	$(".menu_top__submenu").toggleClass("hidden");
