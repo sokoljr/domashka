@@ -107,11 +107,15 @@ a {
 }
 
 .menu_top .menu_top__item.menu_top__item_dropdown:hover .menu_top__submenu{
-    display: block;
+    //display: block;
+}
+
+.hidden {
+  display: none;
 }
 
 .menu_top .menu_top__submenu {
-    display: none;
+    //display: none;
     position: absolute;
     top: 40px;
     left: -30px;

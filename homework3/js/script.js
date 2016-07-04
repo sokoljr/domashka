@@ -1,4 +1,5 @@
-var uls = document.getElementsByTagName ("ul"); // Находим все "ul"
+//первое ДЗ
+/*var uls = document.getElementsByTagName ("ul"); // Находим все "ul"
 var topLi = uls[0].firstElementChild; // Находим верхний li в первом ul
 
 var topMenuItemsHTML = "";
@@ -22,7 +23,36 @@ var copyright = uls[uls.length - 1].lastElementChild.innerHTML; // находи�
 console.log("Верхнее меню: " + topMenuItemsHTML);
 console.log("Боковое меню: " + leftMenuItemsHTML);
 console.log("Картинка: " + imgSrc);
-console.log("Текст из copyright: " + copyright);
+console.log("Текст из copyright: " + copyright);*/
+
+
+//Второе ДЗ Jquery
+$(document).ready(function() {
+	var $menu_top = $('ul.menu_top');
+
+	var $liSub = $($menu_top[0]).find('li:nth-child(2)');
+	$liSub.on("click", subClick);
+	function subClick() {
+	$(".menu_top__submenu").toggleClass("hidden");
+	};
+
+	var $lis = $($menu_top[0]).find('li');
+	var $newLi = $('<li class="menu_top__item"><a href="#">Third</a></li>').insertAfter($($lis[1]));// вставка элемента после подменю
+	$newLi.css({"font-size" : "15px", "color" : "white"});
+	
+	$newLi.on('click', imageClick);// функция скрытия и отображения картинки
+    function imageClick() {
+        $('img').fadeToggle(1000);;
+    };
+    
+    var $leftMenu = $("ul.left_menu"); //изменение цвета фона и шрифта для каждого четного элемента
+  	var $lisLeft = $($leftMenu[0]).find('li:nth-child(2n+1)'); 
+    $lisLeft.css({'font-size' : '18px', 'background-color': 'red'});
+
+	var $liBottomLast = $($menu_top[1]).find('li:nth-child(5)'); //Замена года 2014 на 2016
+	$liBottomLast.html("2016 All &copy; rights reserved");
+});
+
 
 
     
