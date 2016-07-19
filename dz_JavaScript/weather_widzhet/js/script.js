@@ -14,10 +14,10 @@ $(document).ready(function() {
 			method: 'GET',
 			url: api + "?APPID=" + appId + "&q=" + $('input[name="city_name"]').val() + "&units=metric&lang={RU}"
 		})
-		.done(function(msg) {
+		.done(function(msg) { // Проверка кода - условие
 			widget.empty();
 			if (msg.cod !== 200) {
-				widget.html("Извините, возникла ошибочка").addClass('weather_result').css({'color': 'lightgray', 'font-size': '18px',});
+				widget.html("Извините, возникла ошибочка - город не найден").addClass('weather_result').css({'color': 'lightgray', 'font-size': '18px',});
 				$('#google_map').css('display', 'none');
 			} 
 			else {
@@ -39,7 +39,7 @@ $(document).ready(function() {
 				var sunset = new Date(result.sunset * 1000);
 				var iconUrl = 'http://openweathermap.org/img/w/' + result.icon + '.png';
 
-				function format(date) {
+				function format(date) { // Корректируем время и дату
 					var hours = date.getHours();
 					var minutes = date.getMinutes();
 					var seconds = date.getSeconds();
@@ -64,7 +64,7 @@ $(document).ready(function() {
 				var sunrizeTime = format(sunrise);
 				var sunsetTime = format(sunset);
 
-				widget.addClass('weather_result');
+				widget.addClass('weather_result'); // Добавляем в новый класс параграфы с данными
 				widget.append('<p>' + result.city + ', ' + result.country + '</p>');
 				widget.append('<p>' + '<img src=" ' + iconUrl  +' ">' + ' ' + Math.round(result.temp) + '&deg;С</p>');
 				widget.append('<p>Время, дата ' + dateTime.time + ' ' + dateTime.date + '</p>');
