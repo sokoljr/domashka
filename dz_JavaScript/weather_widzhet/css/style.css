@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	background-color: lightgray;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.weather_container {
+	display: inline-block;
+}
+
+.widget {
+	font-family: 'Droid Sans', sans-serif;
+	background-color: #047499;
+	border-radius: 15px;
+	margin-top: 20px;
+}
+
+.widget div {
+	padding: 15px 25px;
+}
+
+.widget div input {
+	padding: 7px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.widget div input:focus {
+	outline: none;
+    border: 1px solid #CA0A00;
+    box-shadow: 0 0 5px #CA0A00;
+}
+
+.widget div button {
+	margin-left: 10px;
+	padding: 4px 20px;
+	border-radius: 5px;
+	background-color: #969692;
+	font-size: 14px;
+	color: #3D3D3B;
+	cursor: pointer;
+}
+
+.widget div button:focus {
+	outline: none;
+    border: 1px solid #CA0A00;
+    box-shadow: 0 0 5px #CA0A00;
+}
+
+.weather_result {
+	text-align: left;
+	margin-top: 25px;
+	line-height: 22px;
+    overflow: hidden;
+}
+
+.weather_result p {
+	font-size: 18px;
+	margin-top: 5px;
+	color: lightgray;
+}
+
+.weather_result p:first-child {
+	font-size: 24px;
+    padding-bottom: 5px;
+}
+
+.weather_result p:nth-child(2){
+    font-size: 38px;
+}
+
+.weather_result img {
+    vertical-align: middle;
+    width: 70px;
+}
+
+#google_map {
+    height: 500px;
+    width: 500px;
+    margin-top: 15px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    display: none;
+}
