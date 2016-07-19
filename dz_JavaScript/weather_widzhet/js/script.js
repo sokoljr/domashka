@@ -12,7 +12,7 @@ $(document).ready(function() {
 	function weather() { // функция погоды
 		$.ajax({    // делаем запрос на сервер с помощью метода GET
 			method: 'GET',
-			url: api + "?APPID=" + appId + "&q=" + $('input[name="city_name"]').val() + "&units=metric&lang={RU}"
+			url: api + "?APPID=" + appId + "&q=" + $('input[name="city_name"]').val() + "&units=metric&lang=ru"
 		})
 		.done(function(msg) { // Проверка кода - условие
 			widget.empty();
@@ -34,6 +34,7 @@ $(document).ready(function() {
 					icon : msg.weather[0].icon,
 					wind : msg.wind.speed
 				}
+
 				var date = new Date(result.date * 1000);
 				var sunrise = new Date(result.sunrise * 1000);
 				var sunset = new Date(result.sunset * 1000);
@@ -67,11 +68,11 @@ $(document).ready(function() {
 				widget.addClass('weather_result'); // Добавляем в новый класс параграфы с данными
 				widget.append('<p>' + result.city + ', ' + result.country + '</p>');
 				widget.append('<p>' + '<img src=" ' + iconUrl  +' ">' + ' ' + Math.round(result.temp) + '&deg;С</p>');
-				widget.append('<p>Время, дата ' + dateTime.time + ' ' + dateTime.date + '</p>');
+				widget.append('<p>Время: ' + dateTime.time + ', Дата: ' + dateTime.date + '</p>');
 				widget.append('<p>Ветер: ' + result.wind +' м/с</p>');
 				widget.append('<p>Восход солнца: ' + sunrizeTime.time + '</p>');
 				widget.append('<p>Заход солнца: ' + sunsetTime.time + '</p>');
-				widget.append('<p>Координаты: ' + result.coord_lat +' широты , ' + result.coord_lon  +' долготы</p>');
+				widget.append('<p>Координаты: [' + result.coord_lat +' широты , ' + result.coord_lon  +' долготы]</p>');
 
 				$('#google_map').css('display', 'block');
 				initMap(result.coord_lat, result.coord_lon);
@@ -82,14 +83,12 @@ $(document).ready(function() {
 		});
 	}
 
-
-	
 	function initMap(lat, lon) {
 		var map, lat, lng, marker, mapProp;
 		var myCenter = {lat: lat, lng: lon};
 		 mapProp = { 
 			center: myCenter,
-			zoom: 9
+			zoom: 6
 		};
 
 		map = new google.maps.Map(document.getElementById('google_map'),mapProp);
