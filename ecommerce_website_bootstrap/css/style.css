@@ -53,6 +53,8 @@ a {
   line-height: 54px;
   width: 47%;
   max-width: 450px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .header_search div.form_search input[type="search"] {
@@ -70,6 +72,8 @@ a {
   height: 54px;
   font-size: 33px;
   color: #bdbdbd;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .header_search div.busket p {
