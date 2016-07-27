@@ -55,7 +55,12 @@ h1 {
 .header_menu {
   background-color: #4ccfc1;
   box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.5);
-  margin: 0 auto;
+  margin: 0;
+  padding: 0 11.8%;
+}
+
+.menu {
+  display: table;
 }
 
 nav.header_menu a {
