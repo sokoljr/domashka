@@ -10,20 +10,18 @@
   src: url(../fonts/BebasNeue.otf);
 }
 
-html {
-  width: 100%;
-  min-height: 100%;
-}
-
-body {
-  width: 100%;
-  height: 100%;
-}
-
 a {
   text-decoration: none;
   color: white; 
-}  
+}
+
+body {
+	line-height: normal;
+}
+
+h1 {
+	margin: 0;
+}
 
 .header_search {
   padding-top: 15px;
@@ -46,14 +44,18 @@ a {
   color: #bdbdbd;
   font-family: BebasNeue;
   display: inline-block;
-  margin: 0;
+  margin-left: 7px;
+}
+
+.basket img {
+	display: inline-block;
+	vertical-align: baseline;
 }
 
 .header_menu {
   background-color: #4ccfc1;
   box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.5);
-  margin: 0;
-  padding: 0 11.8%;
+  margin: 0 auto;
 }
 
 nav.header_menu a {
