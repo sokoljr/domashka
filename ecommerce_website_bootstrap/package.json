@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/sokoljr/domashka#readme",
   "devDependencies": {
+    "gulp": "^3.9.1",
     "node-static": "^0.7.8"
   }
 }
