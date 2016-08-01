@@ -13,6 +13,7 @@ $(document).ready(function(){
 
 	$( function() {
     	$( ".accordion" ).accordion ({
+    	active: 2,
       	collapsible: true,
       	event: "mouseover"
     	});
