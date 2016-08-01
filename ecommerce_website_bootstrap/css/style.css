@@ -337,10 +337,48 @@ p {
   background-clip: padding-box;
 }
 
+.ui-state-default {
+  border: none;
+  background-color: inherit;
+}
+
+.ui-widget-content {
+  border: none;
+  background-color: inherit;
+}
+
+.ui-accordion .ui-accordion-header {
+  font-size: 27px;
+}
+
 .bottom_menu {
-  padding: 20px 11.8% 30px;
+  padding: 20px 11.8%;
   background-color: #3cc3b5;
   margin: 0;
+}
+
+.bottom_menu h3 {
+  font-family: BebasNeue;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.bottom_menu .column_content_box ul {
+  margin-bottom: 8px;
+  list-style: none;
+  padding: 0;
+}
+
+.bottom_menu .column_content_box ul li {
+  margin-bottom: 8px;
+  list-style: none;
+}
+
+.bottom_menu .column_content_box ul li a {
+  font: 15px "Open Sans", Arial, sans-serif;
+  color: white;
+  text-decoration: none;
 }
 
 footer {

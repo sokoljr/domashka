@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce_website_bootstrap",
+  "version": "0.0.1",
+  "description": "jquery,jquery_ui,bootstrap",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sokoljr/domashka.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sokoljr/domashka/issues"
+  },
+  "homepage": "https://github.com/sokoljr/domashka#readme"
+}

@@ -10,4 +10,11 @@ $(document).ready(function(){
 		nextArrow: $(".second_slider_container .second_slider_controls.right"),
 	});
 	$(".second_slider_container .second_slider_controls")
+
+	$( function() {
+    	$( ".accordion" ).accordion ({
+      	collapsible: true,
+      	event: "mouseover"
+    	});
+  	});
 });
