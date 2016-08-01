@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sokoljr/domashka/issues"
   },
-  "homepage": "https://github.com/sokoljr/domashka#readme"
+  "homepage": "https://github.com/sokoljr/domashka#readme",
+  "devDependencies": {
+    "node-static": "^0.7.8"
+  }
 }
