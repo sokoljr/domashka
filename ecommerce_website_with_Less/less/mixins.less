@@ -1,0 +1,45 @@
+//Parametric mixins
+
+.box-shadow (@string) {
+    -webkit-box-shadow: @string;
+    -moz-box-shadow:    @string;
+    box-shadow:         @string;
+}
+
+.border-radius (@radius: 5px) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius:    @radius;
+    border-radius:         @radius;
+
+    -moz-background-clip:    padding;
+    -webkit-background-clip: padding-box;
+    background-clip:         padding-box;
+}
+
+.slide_text (@lines: 1, @line-gap: 0, @font-size: 27px) {
+    @line-height: @font-size + @line-gap;
+    font-size: @font-size;
+    line-height: @line-height;
+    max-height: @lines * @line-height;
+    color: @slide-text-color;
+    overflow-y: hidden;
+    text-transform: uppercase;
+}
+
+
+//Mixins
+
+.img_responsive {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.slide_button {
+    background-color: @slide-button-color;
+    font: 19px "bebas neue", Arial, sans-serif;
+    color: @white;
+    text-transform: uppercase;
+    border: none;
+    .border-radius;
+}
