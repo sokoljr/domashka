@@ -1,0 +1,147 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000311}}
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000315}}
+a {
+  color: #FF6347; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000318}}
+p,
+body .main_footer,
+.s_about li {
+  color: #888; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000323}}
+.main_footer {
+  letter-spacing: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000326}}
+.color_element {
+  color: #FF6347; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000328}}
+.color_bg {
+  background-color: #FF6347; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000330}}
+.color_border {
+  border-color: #FF6347; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000333}}
+.bg_light {
+  background-color: #FAFAFA; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000335}}
+.bg_dark {
+  background-color: #222;
+  color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000338}}
+  .bg_dark .s_descr::after {
+    background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000340}}
+  .bg_dark a {
+    color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000344}}
+svg path {
+  fill: #FAFAFA; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000347}}
+.toggle_mnu {
+  background-color: rgba(0, 0, 0, 0.3); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000351}}
+.top_mnu li:hover {
+  background-color: rgba(255, 255, 255, 0.1); }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000353}}
+.top_mnu a:hover {
+  color: #FF6347; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000355}}
+.top_mnu a {
+  letter-spacing: 4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000358}}
+.top_text p {
+  color: #FAFAFA;
+  letter-spacing: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000362}}
+.s_descr {
+  letter-spacing: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000364}}
+  .s_descr::after {
+    background-color: #222; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000368}}
+section h3 {
+  letter-spacing: 3px;
+  color: #888; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000373}}
+.s_about p:nth-child(even) {
+  color: #FF6347; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000376}}
+.personal_header {
+  letter-spacing: 2px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000380}}
+.resume_container h3 {
+  color: #222;
+  letter-spacing: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000385}}
+.resume_item .year {
+  background-color: #FF6347;
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000388}}
+.resume_item .resume-description {
+  letter-spacing: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000392}}
+.s_portfolio li {
+  color: #888;
+  letter-spacing: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000395}}
+.s_portfolio li.active {
+  color: #fff;
+  border-bottom: 1px solid #FF6347; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\00003100}}
+.portfolio_item .port_item_cont a {
+  border-color: #FF6347;
+  color: #FF6347; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\00003104}}
+.main_footer a {
+  color: #FF6347; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\00003107}}
+.contacts_icon {
+  color: #FF6347; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\00003110}}
+.text-danger {
+  color: #FF6347; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\00003114}}
+form input:focus,
+form textarea:focus {
+  border: 1px solid #FF6347; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\00003117}}
+form input,
+form textarea {
+  letter-spacing: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\00003120}}
+form button {
+  background-color: #FF6347;
+  color: #fff;
+  letter-spacing: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/admin\.ua\/www\/wp-content\/themes\/My\%20Theme\/css\/sass\/skins\/tomato\.sass}line{font-family:\00003124}}
+form .form-group {
+  letter-spacing: 2px;
+  color: #888; }
+
+/*# sourceMappingURL=tomato.css.map */

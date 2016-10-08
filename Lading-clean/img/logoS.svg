@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 708.5714 648.57139"
+   height="183.04126mm"
+   width="199.97459mm">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-24.285736,-205.21936)"
+     id="layer1">
+    <g
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:20;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="g3338">
+      <path
+         points="421.42859,342.3622 494.51353,339.2546 233.97508,332.80252 178.57145,333.34088 "
+         d="m 178.57145,333.34088 242.85714,9.02132 73.08494,-3.1076 -260.53845,-6.45208 z"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path3348" />
+      <path
+         points="178.57145,333.34088 233.97508,332.80252 233.97508,113.16578 178.57145,90.933639 "
+         d="m 178.57145,90.933639 0,242.407241 55.40363,-0.53836 0,-219.63674 z"
+         style="fill:#353564;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path3340" />
+      <path
+         points="494.51353,-153.28019 494.51353,339.2546 233.97508,332.80252 233.97508,113.16578 "
+         d="m 233.97508,113.16578 260.53845,-266.44597 0,492.53479 -260.53845,-6.45208 z"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path3350" />
+      <path
+         points="421.42859,-281.61199 494.51353,-153.28019 233.97508,113.16578 178.57145,90.933639 "
+         d="m 178.57145,90.933639 242.85714,-372.545629 73.08494,128.3318 -260.53845,266.44597 z"
+         style="fill:#4d4d9f;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path3342" />
+      <path
+         points="421.42859,342.3622 494.51353,339.2546 494.51353,-153.28019 421.42859,-281.61199 "
+         d="m 421.42859,-281.61199 0,623.97419 73.08494,-3.1076 0,-492.53479 z"
+         style="fill:#d7d7ff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path3346" />
+      <path
+         points="421.42859,-281.61199 421.42859,342.3622 178.57145,333.34088 178.57145,90.933639 "
+         d="m 178.57145,90.933639 242.85714,-372.545629 0,623.97419 -242.85714,-9.02132 z"
+         style="fill:#8686bf;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path3344" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:20;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="g3352">
+      <path
+         points="481.42859,468.07649 548.86073,435.06752 453.52699,415.53865 378.57145,436.47146 "
+         d="m 378.57145,436.47146 102.85714,31.60503 67.43214,-33.00897 -95.33374,-19.52887 z"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path3362" />
+      <path
+         points="378.57145,436.47146 453.52699,415.53865 453.52699,191.82955 378.57145,159.50505 "
+         d="m 378.57145,159.50505 0,276.96641 74.95554,-20.93281 0,-223.7091 z"
+         style="fill:#353564;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path3354" />
+      <path
+         points="548.86073,161.67302 548.86073,435.06752 453.52699,415.53865 453.52699,191.82955 "
+         d="m 453.52699,191.82955 95.33374,-30.15653 0,273.3945 -95.33374,-19.52887 z"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path3364" />
+      <path
+         points="481.42859,110.70048 548.86073,161.67302 453.52699,191.82955 378.57145,159.50505 "
+         d="m 378.57145,159.50505 102.85714,-48.80457 67.43214,50.97254 -95.33374,30.15653 z"
+         style="fill:#4d4d9f;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path3356" />
+      <path
+         points="481.42859,468.07649 548.86073,435.06752 548.86073,161.67302 481.42859,110.70048 "
+         d="m 481.42859,110.70048 0,357.37601 67.43214,-33.00897 0,-273.3945 z"
+         style="fill:#d7d7ff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path3360" />
+      <path
+         points="481.42859,110.70048 481.42859,468.07649 378.57145,436.47146 378.57145,159.50505 "
+         d="m 378.57145,159.50505 102.85714,-48.80457 0,357.37601 -102.85714,-31.60503 z"
+         style="fill:#8686bf;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path3358" />
+    </g>
+    <ellipse
+       ry="314.28571"
+       rx="344.28571"
+       cy="529.50507"
+       cx="378.57144"
+       id="path3400"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:20;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text3402"
+       y="632.36218"
+       x="225.71429"
+       style="font-style:normal;font-weight:normal;font-size:500px;line-height:40.0000006%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:40.0000006%;font-family:'Brush Script Std';-inkscape-font-specification:'Brush Script Std Medium'"
+         y="632.36218"
+         x="225.71429"
+         id="tspan3404">S</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:90px;line-height:40.0000006%;font-family:'Brush Script Std';-inkscape-font-specification:'Brush Script Std Medium'"
+         id="tspan3406"
+         y="739.01886"
+         x="225.71429"> Sokol</tspan></text>
+  </g>
+</svg>
